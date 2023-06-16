@@ -23,7 +23,7 @@ testing_extras = [
     'isort>=5.10.1',
 
     # For test site
-    'wagtail>=2.15',
+    'wagtail>=4.1',
 ]
 
 # Documentation dependencies
@@ -50,24 +50,20 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Framework :: Django :: 3',
         'Framework :: Django :: 3.2',
         'Framework :: Django :: 4',
         'Framework :: Django :: 4.0',
         'Framework :: Django :: 4.1',
         'Framework :: Wagtail',
-        'Framework :: Wagtail :: 2',
-        'Framework :: Wagtail :: 2.15',
-        'Framework :: Wagtail :: 2.16',
-        'Framework :: Wagtail :: 3',
-        'Framework :: Wagtail :: 3.0',
         'Framework :: Wagtail :: 4',
-        'Framework :: Wagtail :: 4.0',
+        'Framework :: Wagtail :: 4.1',
+        'Framework :: Wagtail :: 4.2',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
